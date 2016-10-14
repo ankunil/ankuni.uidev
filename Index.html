@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+      
+     
+      <style>
+            .navbar {height: 80px;}
+            .navbar-brand {padding: 0px; height: 80px;}
+       
+            .navbar-brand>img {
+                          height: 100%;
+                          padding: 1px;
+                          width: auto;
+                        }
+            .jumbotron{
+              margin-top: 82px;
+              background-image: url(backgroundimg.jpg);
+              background-size: 100%;
+              height: 280px;
+              background-repeat: no-repeat;
+              background-position: center;
+
+                }
+            .input-group-addon{
+                              background-color: #1a75ff;
+                       }
+            .glyphicon-search{
+                  color: white;
+            }
+
+
+          .carousel-caption {
+        
+                  text-align: center;
+                 
+              }
+            footer{
+              background-color: #330000;
+              color: white;
+            }
+            
+
+      </style>
+    </head>
+  <body>
+      <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#"><img src="homelog.png"/></a>
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+               <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse">
+        <div class="container">
+        <ul class="nav navbar-nav navbar-right">
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Page 1-1</a></li>
+          <li><a href="#">Page 1-2</a></li>
+          <li><a href="#">Page 1-3</a></li> 
+        </ul>
+      </li>
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 2 <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Page 2-1</a></li>
+          <li><a href="#">Page 2-2</a></li>
+          <li><a href="#">Page 2-3</a></li> 
+        </ul></li>
+        
+      <li><button id="#" type="button" class="btn btn-primary" style="border-radius: 0px;">Register</button></li> 
+  <li>  </li>
+  <li>  </li>
+      <li><button id="#" type="button" class="btn btn-primary" style="border-radius: 0px;">Log in</button></li>
+     </ul>
+    </div>
+    </div>
+      </div>
+    </nav>
+    <div class="jumbotron text-center">
+      <div>
+        <h2>Here something is going on....!!! </h2>
+        <form class="form-inline">
+            <div class="input-group">
+                <input type="Text" ng-model="searchString" class="form-control input-lg" size="45" placeholder="Enter City" style="border-radius: 0px;">
+                <span class="input-group-addon" style="border-radius: 0px;"><a href=""><span class="glyphicon glyphicon-search"></span></span></a>
+            </div>
+        </form>
+      </div>
+    </div>
+    <div class="container text-center">
+    <h2><b><i>Some of the most popular destinations in India</i></b></h2><br>
+        <div class="row">
+            <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+            <a href="#">
+            <img src="goa.jpg" class="img-rounded" alt="goa" width="140" height="140"></a>
+            <div class="carousel-caption">
+              <h3>GOA</h3>
+            </div>
+            </div>
+              <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+              <a href="#">
+              <img src="mumbai.jpg" class="img-rounded" alt="mumbai" width="140" height="140"></a>
+              <div class="carousel-caption">
+              <h3>MUMBAI</h3>
+            </div>
+              </div>
+            <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+            <a href="#">
+            <img src="ooty.jpg" class="img-rounded" alt="Ooty" width="140" height="140"></a>
+            <div class="carousel-caption">
+              <h3>OOTY</h3>
+            </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+            <a href="#">
+            <img src="nainital.jpg" class="img-rounded" alt="Nainital" width="140" height="140"></a>
+            <div class="carousel-caption">
+              <h3>NAINITAL</h3>
+            </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+            <a href="#">
+            <img src="ladakh.jpg" class="img-rounded" alt="Leh Ladakh" width="140" height="140"></a>
+            <div class="carousel-caption">
+              <h3>LEH LADAKH</h3>
+            </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+            <a href="#">
+            <img src="delhi.jpg" class="img-rounded" alt="Delhi" width="140" height="140"></a>
+            <div class="carousel-caption">
+              <h3>DELHI</h3>
+            </div>
+            </div>
+      </div>
+      <br><br>
+      <h2>Some cities to visit in India...............</h2>
+      <br>
+      <div class="row">
+            <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+            <a href="#">
+            <img src="goa.jpg" class="img-rounded" alt="goa" width="140" height="140"></a>
+            <div class="carousel-caption">
+              <h3>GOA</h3>
+            </div>
+            </div>
+              <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+              <a href="#">
+              <img src="mumbai.jpg" class="img-rounded" alt="mumbai" width="140" height="140"></a>
+              <div class="carousel-caption">
+              <h3>MUMBAI</h3>
+            </div>
+              </div>
+            <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+            <a href="#">
+            <img src="ooty.jpg" class="img-rounded" alt="Ooty" width="140" height="140"></a>
+            <div class="carousel-caption">
+              <h3>OOTY</h3>
+            </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+            <a href="#">
+            <img src="nainital.jpg" class="img-rounded" alt="Nainital" width="140" height="140"></a>
+            <div class="carousel-caption">
+              <h3>NAINITAL</h3>
+            </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+            <a href="#">
+            <img src="ladakh.jpg" class="img-rounded" alt="Leh Ladakh" width="140" height="140"></a>
+            <div class="carousel-caption">
+              <h3>LEH LADAKH</h3>
+            </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
+            <a href="#">
+            <img src="delhi.jpg" class="img-rounded" alt="Delhi" width="140" height="140"></a>
+            <div class="carousel-caption">
+              <h3>DELHI</h3>
+            </div>
+            </div>
+      </div>
+      <br>
+      <a href="#"><h4>view all list of places<span class="glyphicon glyphicon-chevron-right" style="color: #809fff;"></span></h3></a>
+    </div>
+
+    <br>
+    <div class="container">
+    <div class="container text-center" style="border-top:01px solid gray; border-bottom:01px solid gray;">
+    <h3>Destination types.....</h3>
+    <br>
+    <div class="row">
+            <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+            <a href="#">
+            <img src="falls.jpg" alt="Falls" width="150" height="150"></a>
+           
+            <div class="desc"><h4>Natural Beauty</h4></div>
+          
+            </div>
+             <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+            <a href="#">
+            <img src="hill.jpg" alt="Hills" width="150" height="150"></a>
+           
+            <div class="desc"><h4>Hill Station</h4></div>
+          
+            </div>
+             <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+            <a href="#">
+            <img src="beach.jpg" alt="Beach" width="150" height="150"></a>
+           
+            <div class="desc"><h4>Beach</h4></div>
+          
+            </div>
+             <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+            <a href="#">
+            <img src="historical.jpg" alt="Historical" width="150" height="150"></a>
+           
+            <div class="desc"><h4>Historical</h4></div>
+          
+            </div>
+        </div>
+      </div>
+    </div>
+    <br>
+      <div class="container">
+      <h2 class="text-center">Our success stories...</h2>
+      <div class="row">
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" height="220px">
+      <div style="width:26%; float: left;">
+      <img src="dawki.jpg" alt="Dawki" style="heigh:100%; width: 140px;">       
+      </div>
+      <div style="width:74%; float: right; text-align: left; margin: 0px 0px;">
+        <h4><u>Dawki, Shillong, Meghalaya</u></h4>
+        <p>While recently travelling through picturesque Meghalaya, some spontaneous planning resulted in a visit to the border town of Dawki. Located in the Jaintia Hills...<a href="#"><u><i>Read More</i></u></a></p>
+      </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+      <div style="width:26%; float: left;">
+      <img src="cherrapunjee.jpg" alt="Dawki" style="heigh:100%; width: 140px;">       
+      </div>
+      <div style="width:74%; float: right; text-align: left; margin: 0px 0px;">
+        <h4><u>Cherapunji, Shillong, Meghalaya</u></h4>
+        <p>Cherrapunji is a subdivisional town in the East Khasi Hills district in the Indian state of Meghalaya. It is credited as being the wettest place on Earth, but nearby Mawsynram....<a href="#"><u><i>Read More</i></u></a></p>
+      </div>
+      </div>
+      </div>
+      <br>
+      <div class="row">
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" height="220px">
+      <div style="width:26%; float: left;">
+      <img src="dawki.jpg" alt="Dawki" style="heigh:100%; width: 140px;">       
+      </div>
+      <div style="width:74%; float: right; text-align: left; margin: 0px 0px;">
+        <h4><u>Dawki, Shillong, Meghalaya</u></h4>
+        <p>While recently travelling through picturesque Meghalaya, some spontaneous planning resulted in a visit to the border town of Dawki. Located in the Jaintia Hills...<a href="#"><u><i>Read More</i></u></a></p>
+      </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+      <div style="width:26%; float: left;">
+      <img src="cherrapunjee.jpg" alt="Dawki" style="heigh:100%; width: 140px;">       
+      </div>
+      <div style="width:74%; float: right; text-align: left; margin: 0px 0px;">
+        <h4><u>Cherapunji, Shillong, Meghalaya</u></h4>
+        <p>Cherrapunji is a subdivisional town in the East Khasi Hills district in the Indian state of Meghalaya. It is credited as being the wettest place on Earth, but nearby Mawsynram....<a href="#"><u><i>Read More</i></u></a></p>
+      </div>
+      </div>
+      </div>
+
+      </div><br>
+    <footer class="container-fluid text-center">
+    <div class="container" style="border-bottom: 1px solid white;">
+    <div class="row">
+    <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+    <br>
+    <ul style="list-style: none; text-align: left;">
+    <li><a href=""> About Us</a></li>
+    <li><a href=""> The Team</a></li>
+    <li><a href=""> Investors</a></li>
+    <li><a href=""> Abbhhgg</a></li>
+    <li><a href=""> Dkjnkj</a></li>
+    </ul>
+    </div>
+    <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+    <br>
+    <ul style="list-style: none; text-align: left;">
+    <li><a href=""> About Us</a></li>
+    <li><a href=""> The Team</a></li>
+    <li><a href=""> Investors</a></li>
+    <li><a href=""> Abbhhgg</a></li>
+    <li><a href=""> Dkjnkj</a></li>
+    </ul>
+    </div>
+    <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+    <br>
+    <ul style="list-style: none; text-align: left;">
+    <li><a href=""> About Us</a></li>
+    <li><a href=""> The Team</a></li>
+    <li><a href=""> Investors</a></li>
+    <li><a href=""> Abbhhgg</a></li>
+    <li><a href=""> Dkjnkj</a></li>
+    </ul>
+    </div>
+    <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+    <br>
+    <ul style="list-style: none; text-align: left;">
+    <li><a href=""> About Us</a></li>
+    <li><a href=""> The Team</a></li>
+    <li><a href=""> Investors</a></li>
+    <li><a href=""> Abbhhgg</a></li>
+    <li><a href=""> Dkjnkj</a></li>
+    </ul>
+    </div>
+    </div>
+    </div>
+    <br>
+    <div class="container text-left">
+      Copyright &copy 2015 Ankunil Inc.All Rights Reserved.
+      <a href="#"><small style="color:grey" class="fa fa-lg fa-skype pull-right">  </small></a>
+            <a href="#"><small style="color:grey" class="fa fa-lg fa-google-plus pull-right">  </small></a>
+            <a href="#"><small style="color:grey" class="fa fa-lg fa-linkedin pull-right">  </small></a>
+            <a href="#"><small style="color:grey" class="fa fa-lg fa-twitter pull-right">  </small></a>
+            <a href="#"><small style="color:grey" class="fa fa-lg fa-facebook pull-right">  </small></a>
+    </div>
+    </footer>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+     
+  </body>
+</html>
